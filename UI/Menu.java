@@ -142,7 +142,7 @@ public class Menu extends javax.swing.JFrame {
             this.setVisible(false);
         }
         if(validar.esFuncionario(usuario.getText(),contra.getText())){
-            new MenuPaciente().setVisible(true);
+            new MenuFuncionario().setVisible(true);
             this.setVisible(false); 
         }   
     }//GEN-LAST:event_IngresarActionPerformed
@@ -179,6 +179,7 @@ public class Menu extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Menu().setVisible(true);

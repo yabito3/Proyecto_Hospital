@@ -10,12 +10,14 @@ package Bussiness;
  */
 public class Validaciones {
     public boolean esAdmin(String usuario,String Contra){
-        return true;
+        return false;
     }
     public boolean esFuncionario(String usuario,String Contra){
-        return false;
+        return true;
     }
     public boolean esPaciente(String usuario,String Contra){
         return false;
     }
-}
+
+            
+    }
